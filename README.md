@@ -1,5 +1,11 @@
 # Convolutional-Neural-Network
 
+You can write codes in notebook of Googlecolab. (https://colab.research.google.com)
+
+You can work on any dataset, for example go pytorch website, doc, torchvision, imagenet and use dataset  https://pytorch.org/vision/stable/datasets.html#imagenet   
+
+
+
  
  
  Example 1: Class Dataset and how to use Data Loder
