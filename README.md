@@ -1,6 +1,10 @@
 # Convolutional-Neural-Network
 
  
+ 
+ Example 1: Class Dataset and how to use Data Loder
+ 
+ 
 
    1-1) Generalization of Training step ( A function that get Loss, Model, Optimizer and return train step or corresponding Loss, this function will be used in training loop
    
