@@ -2,11 +2,11 @@
 
 You can write codes in notebook of Googlecolab. (https://colab.research.google.com)
 
-You can work on any dataset, for example go pytorch website, doc, torchvision, imagenet and use dataset  https://pytorch.org/vision/stable/datasets.html#imagenet
+You can work on any dataset, for example go pytorch website, doc, torchvision, imagenet and use dataset  https://pytorch.org/vision/stable/datasets.html#mnist
 
 and
 
-torchvision.datasets.ImageNet(root: str, split: str = 'train', download: Optional[str] = None, **kwargs: Any) 
+torchvision.datasets.MNIST(root: str, train: bool = True, transform: Optional[Callable] = None, target_transform: Optional[Callable] = None, download: bool = False)
 
 
 
