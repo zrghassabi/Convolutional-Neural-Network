@@ -9,7 +9,7 @@ and
 torchvision.datasets.MNIST(root: str, train: bool = True, transform: Optional[Callable] = None, target_transform: Optional[Callable] = None, download: bool = False)
 
 
-
+use https://pytorch.org/tutorials/beginner/finetuning_torchvision_models_tutorial.html
  
  
  Example 1: Class Dataset and how to use Data Loder
