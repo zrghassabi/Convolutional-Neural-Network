@@ -1,5 +1,20 @@
 # Convolutional-Neural-Network
 
+How to download datasets? use Torchvision to download popular datasets
+use https://pytorch.org/vision/stable/index.html to download datasets.
+
+for example use https://pytorch.org/vision/stable/datasets.html#fashion-mnist
+
+if you set train=true, you will download train folder
+if you set train=false, you will download test folder
+
+How to use models? use torchvision https://pytorch.org/vision/stable/models.html
+if you set pretrained=True  , you will have weights of pretrained NN
+
+using torchvison.transforms resize, change brightness, crop input images
+https://pytorch.org/vision/stable/transforms.html
+
+
 -You can write codes in notebook of Googlecolab. (https://colab.research.google.com)
 
 -You can work on any dataset, for example go pytorch website, doc, torchvision, imagenet and use dataset  https://pytorch.org/vision/stable/datasets.html#mnist
@@ -18,4 +33,7 @@ to download dataset and use torch.utils.data.Dataloder to load mini-batches on d
  
 -Generalization of Training step ( A function that get Loss, Model, Optimizer and return train step or corresponding Loss, this function will be used in training loop
    
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
 
