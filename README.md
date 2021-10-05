@@ -58,18 +58,18 @@ if you set pretrained=True  , you will have weights of pretrained NN
 
 search "google drive mounting in VM" in codesnippest, then you will see:
 
-from google.colab import drive
+                  from google.colab import drive
 
-drive.mount('/gdrive')
+                  drive.mount('/gdrive')
 
-Run this on the notebook. It will give you link and require to copy your identification code
+                  Run this on the notebook. It will give you link and require to copy your identification code
 
-If you "reset all Run time" , everything will be reset.
+                  If you "reset all Run time" , everything will be reset.
 
 
-import os
+                  import os
 
-print(os.listdir('/gdrive/My Drive/'))  #to see currunt drive 
+                  print(os.listdir('/gdrive/My Drive/'))  #to see currunt drive 
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
