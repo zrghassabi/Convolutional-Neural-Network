@@ -28,7 +28,10 @@ https://pytorch.org/vision/stable/transforms.html
 
 -Dataloader can be build for test data and evaluation of model with test data
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+dataloader_CNN2.ipynb
 
+-How to build convolutional model, how to adjust in_channels, out_channels, padding, stride, kernel size, ... 
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
