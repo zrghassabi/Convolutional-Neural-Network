@@ -34,10 +34,13 @@ dataloader_CNN2.ipynb
 -How to build convolutional model, how to adjust in_channels, out_channels, padding, stride, kernel size, ... 
 
 -Use nn.Module and write Class of model which includes (__init__ and forward), so that you can creat covolutional layers including Convolution, maxpooling, relu and fully connected layers
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 dataloader_CNN3.ipynb
+
 -train,validation, test using a model of dataloader_CNN2.ipynb
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 How to use models? use torchvision https://pytorch.org/vision/stable/models.html
 if you set pretrained=True  , you will have weights of pretrained NN
