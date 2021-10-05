@@ -47,8 +47,26 @@ if you set pretrained=True  , you will have weights of pretrained NN
   
  -use codes from  https://pytorch.org/tutorials/beginner/finetuning_torchvision_models_tutorial.html
  
+ -run finetuning in google colab
+ 
 -Generalization of Training step ( A function that get Loss, Model, Optimizer and return train step or corresponding Loss, this function will be used in training loop
    
+-best_model_wts = copy.deepcopy(model.state_dict())   in def train  finds where weights are the best (loss in min and valid accuracy is good)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-use google colab to upload data in VM
+
+search "google drive mounting in VM" in codesnippest, then you will see:
+
+from google.colab import drive
+drive.mount('/gdrive')
+
+Rund this on the notebook. It will give you link and require to copy your identification code
+
+If you "reset all Run time" , everything will be reset.
+
+
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
