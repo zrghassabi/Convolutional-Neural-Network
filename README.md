@@ -68,6 +68,30 @@ search "google drive mounting in VM" in codesnippest, then you will see:
                   print(os.listdir('/gdrive/My Drive/'))  #to see currunt drive 
 
 
+                  #download file to VM and unzip it 
+                  from six.moves import urllib
+                  url='https://download.pytorch.org/tutorial/hymenoptera_data.zip'
+                  print('Downloading ' +url)
+                  data=urllib.request.urlopen(url)
+                  if not os.path.isdir(data_dir):
+                       os.makedirs(data_dir)
+                  filename=url.rpartition('/')
+                  #path and file name
+                  filename=url.rpartition('/')[2]  #gets just file name
+                  print(filename)
+                  file_path=os.path.join(data_dir,filename)
+                  print(file_path)
+                  with open(file_path ,'wb') as f:
+                       f.write(data.read())
+
+                  print('file downloaded')
+                  #print(os.listdir(data_dir))
+                  import zipfile
+                  with zipfile.ZipFile(file_path, 'r') as zip_ref:
+                        zip_ref.extractall(data_dir)
+                  print(os.listdir(data_dir+'/'+filename[:-4]))
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
 
